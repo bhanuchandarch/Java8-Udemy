@@ -5,6 +5,8 @@ import java.util.stream.IntStream;
 public class ImperativeVsDeclarativeEx1 {
 
 	public static void main(String[] args) {
+		// Sum of Integers 0-100
+		
 		/**
 		 * Imperative - How Style of Programming
 		 */
