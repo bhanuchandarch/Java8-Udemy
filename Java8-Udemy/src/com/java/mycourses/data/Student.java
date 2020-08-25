@@ -4,7 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private String name;
+    public Student() {
+		super();
+	}
+
+    public Student(String s) {
+    	this.name = s;
+    }
+    
+	private String name;
     private int gradeLevel;
     private double gpa;
     private String gender;
@@ -50,7 +58,9 @@ public class Student {
         this.gpa = gpa;
     }
 
-
+    public void printListOfActivities() {
+    	System.out.println(activities);
+    }
 
     public List<String> getActivities() {
         return activities;
